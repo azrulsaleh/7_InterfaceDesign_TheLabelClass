@@ -27,9 +27,8 @@ public:
     void resized() override;
 
 private:
-    //==============================================================================
-    // Your private member variables go here...
-
+	Label titleLabel, inputLabel, inputText, uppercaseLabel, uppercaseText, lowercaseLabel, lowercaseText, infoLabel;
+	TextButton clearButton;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)
 };
